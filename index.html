@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Clases de surf y surfksate en Barcelona para todos los niveles. ¿Te atraves a probar algo nuevo?">
+    <title>GOODPEOPLE-SURFSKATE | Clases de Surf y Surfskate 🏄🤙</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imgs/logo+good+people-320w.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <script type="text/javascript" src="lib/jquery.js" charset="utf-8"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <input type="checkbox" name="" id="check" class="check">
+            <div class="nav-brand"><!-- FLEX 1 -->
+                <!-- <h3 class="logo">Limpiezas <span>GABO</span></h3> -->
+                <a href="#"><img class="imgLogo" src="imgs/logo+good+people-320w.webp" alt="Surf y surfskate en Barcelona"></a>
+                <a class="logo" href="#">GOODPEOPLE-<span>SURFSKATE</span></a>           
+            </div>
+            <div class="nav-items"><!-- FLEX 3 -->
+                <div class="nav-links"> <!-- FLEX 2 -->
+                    <ul>
+                        <li class="nav-link" style="--i: .1s"><a class="closeMenu" href="#conocenos">Nosotros</a></li>
+                        <li class="nav-link" style="--i: 0.3s">                            
+                            <a href="#servicios" class="closeMenu">Sesiones</a><!-- <i class="fas fa-caret-down"></i> -->
+                        </li>
+                        <!--<li class="nav-link" style="--i: 0.6s">                            
+                            <a href="#precios" class="closeMenu">Precios</a> <i class="fas fa-caret-down"></i>
+                        </li>-->
+                        <!-- <li class="nav-link" style="--i: .5s"><a class="closeMenu" href="#trabajos">Trabajos</a></li> -->
+                        <li class="nav-link" style="--i: .5s"><a class="closeMenu" href="#contacto">Contacto</a></li>       
+                    </ul>
+                </div>
+                <!--<div class="nav-social" style="--i: 0.9s">          
+                    <a href="https://www.instagram.com/goodpeoplesurfskate/"><i class="fab fa-instagram"></i></a>                
+                </div>-->
+                <div class="contactnum" style="--i: 0.8s">
+                    <a href="tel:672745797"><i class="fas fa-phone-alt"></i> 675897456</a>
+                </div>
+                
+            </div>
+            <div class="nav-toggle-container"><!-- FLEX 1 DISPLAY NONE BIGGER SCREENS -->
+                <div class="nav-toggle">
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header> 
+    <section class="banner" id="banner">
+        <!-- <div class="imgBx">
+            <img class="imgBrand" src="imgs/logo.jpg" alt="Limpiezas GARBO LOGO">
+        </div> -->
+        <div class="content">
+            <h1>Mejora tu surf y surfskate</h1>
+            <h3>Aprende divirtiendote con los mejores profesores de la zona</h3>
+            <a type="button" class="btn-main" href="#conocenos">ANÍMATE</a>
+        </div>
+        <div class="contactBxMobile">
+            <a href="whatsapp://send?phone=34652555412&text=¡Hola, GOOD PEOPLE! Me gustaría recibir más información sobre sus cursos"><img src="imgs/whatsapp.png" alt="Envíanos un Whatsapp"/></a>
+        </div>
+        <div class="contactBxDesktop">
+            <a style="display: flex;" href="https://api.whatsapp.com/send?phone=34652555412&text=¡Hola, GOOD PEOPLE! Me gustaría recibir más información sobre sus cursos" target="_blank"><img src="imgs/whatsapp.png" alt="Contacta por Whatsapp" title="Contactanos por Whatsapp"></a>
+            <p>Envíanos un WhatsApp</p>
+        </div>
+        <div  class="scrollTop">
+            <a href="#"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </section>
+    
+    <section class="about" id="conocenos">
+        <div class="wrapper">
+            <div class="contentBx">
+                <h2 class="logo">GOODPEOPLE <span>SURFSKATE</span></h2>
+                <h2 style="color: var(--text-gray);"> ¿Quiénes somos?</h2>
+                <p class="text"><strong class="logosm">GOODPEOPLE-<span>SURFSKATE</span></strong> nace a raíz de la pasión de dos amigos por el surf y la necesidad de seguir practicando tanto dentro como fuera del agua.
+                    El <strong>surfskate</strong> está enfocado en <strong>mejorar la línea y fluidez en el surf</strong> para que el alumno pueda ponerlo en práctica en el agua y disfrute al máximo de ello.                    
+                    Esta modalidad permite la práctica al aire libre para conectar con la naturaleza y superar limitaciones.      
+                    <br>
+                    <p class="text">Síguenos en instagram:
+                        <a href="https://www.instagram.com/goodpeoplesurfskate/">@goodpeoplesurfskate</a><br>
+                    </p>
+                    <p class="text">Conoce a nuestros instructores:
+                        <br><strong>Elton</strong>: <a href="https://www.instagram.com/eltonbcn/">@eltonbcn</a><br>
+                        <strong>Allan</strong>: <a href="https://www.instagram.com/allan_carlos84/">@allan_carlos84</a>
+                    </p>
+                    <p><a href="#contacto">Te acompañaremos en tu evolución y disfrute.</a></p>
+            </div>
+            <div class="imgBx">
+                <img id="imgBrand" class="imgBrand" src="imgs/somos.webp" alt="Monitores surfskate - Elton y Allan">
+            </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+        </div> 
+    </section>
+    <div class="parallax2"></div>
+    <section class="services" id="servicios">
+        <div class="headingBx">
+            <h2 class="heading">¡DIVERSIÓN A 4 RUEDAS!</h2>
+            <p class="text"><strong class="logosm">GOODPEOPLE-<span>SURFSKATE</span></strong>: Para los que buscan nuevas experiencias conectando con la naturaleza.</p>
+            <p class="text">Consulta nuestros precios:</p>
+            <a href="https://irp-cdn.multiscreensite.com/4f7d2e5c/files/uploaded/GOOD%20PEOPLE%20precios.pdf" target="_blank" type="button" class="btn">Precios</a>
+            <p class="text">Para saber más puedes contactarnos en: </p>
+            <a href="#contacto" type="button" class="btn">Contáctanos</a>
+        </div>
+        <div><h3 class="h3 text"><strong>¿Te atreves a vivir experiencias únicas?</strong></h3></div>
+        <div class="wrapper">
+            <div class="card">
+                <div class="imgBx" style="overflow: hidden;">
+                    <img src="imgs/Captura-1280w.webp" alt="Limpieza Casas Particulares">
+                </div>            
+                <div class="container">
+                    <h2 class="heading">Clases de Surf</h2>
+                    <div class="text-card">
+                        <p class="text">Te acompañamos en tu <strong>proceso de aprendizaje</strong>:
+                            <br>- Normas y reglas básicas<br>
+                            - Posicionamiento<br>                       
+                            - Saber escoger tus olas<br>                       
+                            - Tecnificación<br>                       
+                            - Perfeccionamiento<br>                                             
+                        Aprenderás a leer las previsiones y te enseñaremos a elegir los mejores spots.                     
+                        <strong>Material incluido: Tabla de Surf. </strong><br>        
+                        Neopreno <strong>no</strong> incluido.         
+                        </p>
+                    </div>
+                    <div class="btn-card">
+                        <a type="button" class="btn" href="https://irp.cdn-website.com/4f7d2e5c/files/uploaded/GOODPEOPLE%20Surf.pdf" target="_blank">Descubre más</a>
+                    </div> 
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="imgs/IMG_20210212_222703-1280w.webp" alt="Limpieza Naves, Locales y Almacenes">
+                </div>                
+                <div class="container">
+                    <h2 class="heading">Clases de Surf-skate</h2>
+                    <p class="text">Simulación de los <strong>movimientos de surf</strong> sobre asfalto.
+                        Diversión asegurada sin necesidad de olas ni agua.
+                        <br>- Nivel iniciación en plano.                        
+                        <br>- Nivel intermedio en bajadas y rampas.                       
+                        <br>- Nivel avanzado en skatepark.                        
+                        <br>Clases de máximo 4 alumnos por monitor con <strong>material incluido</strong>: surfskate, coderas, rodilleras, muñequeras y casco.</p>
+                    <div class="btn-card">
+                        <a type="button" class="btn" href="https://irp.cdn-website.com/4f7d2e5c/files/uploaded/GOODPEOPLE%20Infantil.pdf" target="_blank">Infantil</a>
+                        <a type="button" class="btn" href="https://irp.cdn-website.com/4f7d2e5c/files/uploaded/GOODPEOPLE%20Adul.pdf" target="_blank">Adultos</a>
+                    </div> 
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="imgs/IMG_20210323_170751-1280w.webp" alt="Limpieza Oficinas">
+                </div>               
+                <div class="container">
+                    <h2 class="heading">Extraescolares y casales</h2>
+                    <p class="text">Si eres <strong>docente</strong> y quieres innovar con una actividad diferente para tus alumnos, tenemos los mejores cursos, tanto para el curso escolar como para casales de verano.
+                        No dudes en contactarnos para ofrecerte el mejor precio.       
+                       <br><strong>Nosotros ponemos todo el material, el seguro RC y asistencia médica</strong>, vosotros los alumnos y las ganas de divertirse.</p>
+                    <div class="btn-card">
+                        <a type="button" class="btn" href="#contacto">Descubre más</a>
+                    </div> 
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="imgs/IMG_20210323_171549-1280w.webp" alt="Limpieza Oficinas">
+                </div>               
+                <div class="container">
+                    <h2 class="heading">Instructores</h2>
+                    <p class="text">Conoce a nuestros instructores: 
+                        <br>- Elton: <a href="https://www.instagram.com/eltonbcn/" target="_blank">@eltonbcn</a>
+                        <br>- Allan: <a href="https://www.instagram.com/allan_carlos84/" target="_blank">@allan_carlos84</a>
+                    </p>
+                    <div class="btn-card">
+                        <a type="button" class="btn" href="https://irp.cdn-website.com/4f7d2e5c/files/uploaded/GOODPEOPLE%20Ins.pdf" target="_blank">Conócenos</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="main" id="main"></main>
+    </main>
+    <div class="parallax"></div>
+    <!-- <section class="jobs" id="trabajos">
+
+    </section> -->
+        <!-- Testimonials -->
+   <section class="testimonials"  id="testimonials">
+    <div class="headingBx">
+      <h2 class="heading">Clientes</h2>
+      <p class="text">Feedback de clientes satisfechos</p>
+    </div>
+      <div class="wrapper">
+        <div class="person contentBx">
+            <div class="level1">
+                <div class = "imgBx">
+                    <img src ="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Avatar">
+                </div>
+                <div class="name"><p class="text">Carlos Abelleira</p><br></div>
+            </div>
+            <div class="review"><p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aut repudiandae placeat adipisci reprehenderit sit quae sint error suscipit id nisi laudantium consectetur amet, culpa dolor temporibus explicabo quas voluptas?</p></div>
+        </div>
+        <div class="person contentBx">
+            <div class="level1">
+                <div class = "imgBx">
+                    <img src ="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Avatar">
+                </div>
+                <div class="name"><p class="text">Cristian Hernandez</p><br></div>
+            </div>
+            <div class="review"><p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aut repudiandae placeat adipisci reprehenderit sit quae sint error suscipit id nisi laudantium consectetur amet, culpa dolor temporibus explicabo quas voluptas?</p></div>
+        </div>
+        <div class="person contentBx">
+            <div class="level1">
+                <div class = "imgBx">
+                    <img src ="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Avatar">
+                </div>
+                <div class="name"><p class="text">Jordi Pujol</p><br></div>
+            </div>
+            <div class="review"><p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aut repudiandae placeat adipisci reprehenderit sit quae sint error suscipit id nisi laudantium consectetur amet, culpa dolor temporibus explicabo quas voluptas?</p></div>
+        </div>
+        <div class="person contentBx">
+            <div class="level1">
+                <div class = "imgBx">
+                    <img src ="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Avatar">
+                </div>
+                <div class="name"><p class="text">Laural Fornells</p><br></div>
+            </div>
+            <div class="review"><p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aut repudiandae placeat adipisci reprehenderit sit quae sint error suscipit id nisi laudantium consectetur amet, culpa dolor temporibus explicabo quas voluptas?</p></div>
+        </div>
+        </div>
+      </div>
+  </section>
+    <section class="contact" id="contacto">
+        <div class="wrapper">
+            <div class="info">
+                <h2 class="heading">ESCRÍBENOS UN MENSAJE</h2>
+                <h3>Pide información sin compromiso</h3>
+                <p class="text">Contacta con nosotros por<strong> teléfono, via Whatsapp</strong> o envíanos un <strong>email</strong> y solicita información sin compromiso.
+                   <br> Nuestros profesores estarán encantados de atenderte y darte asesoramiento personalizado.                   
+                <br><span>¡Te esperamos!</span></p>
+                
+            </div>
+            <div class="info2">
+                <a class="text" href="https://goo.gl/maps/hY5nzpwYbS5k6ps68" target="_blank"><i class="fas fa-map-marker-alt"></i>Gavá, Barcelona</a>
+                <a class="text" href="tel:+34652555412"><i class="fas fa-phone-alt"></i> +34 652 555 412</a>
+                <a class="text" href="whatsapp://send?phone=34652555412&text=¡Hola, GOOD PEOPLE! Me gustaría recibir más información sobre sus cursos" target="_blank"><i class="fab fa-whatsapp"></i>+34 652 555 412</a>
+                <a class="text" href="https://api.whatsapp.com/send?phone=34652555412&text=¡Hola, GOOD PEOPLE! Me gustaría recibir más información sobre sus cursos." target="_blank"><i class="fab fa-whatsapp"></i>+34 652 555 412</a>
+                <a href="mailto:info@goodpeople-surfskate.com" class="text"><i class="fas fa-at"></i>info@goodpeople-surfskate.com</a>
+            </div>
+        </div>
+    </section>
+    <section id="pbi" class="pbi">
+        <iframe class="formulario" width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiMWU1NzY5YTQtMDJlOS00MDg5LWFkZjItYjdlOWQxYjEzNjYzIiwidCI6ImI1ZTdhYjhkLWRkNjctNGVjMi1iYWU1LWU2YTRmNjQ3NGE2NCIsImMiOjh9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+    </section>
+    <footer>
+        <!-- <div class="footerBx">
+        </div> -->
+        <div class="wrapperFooter">
+            <!--<div class="contentBx">         
+                <div class="schedule">
+                   <p class="text">No dudes en contactarnos en cualquier momento. Estaremos encantados de ayudar.</p>
+                </div>
+                <div class="contact">
+                    <p class="text"></p>
+                </div>
+            </div>-->
+            <div class="copyrightBx">
+                <p>Copyright @ 2021 GOODPEOPLE-SURFSKATE</p>
+                <p>|</p>
+                <p>Designed by </p><p><a href="mailto:sanchez.lop.adrian@gmail.com"> Adrián Sánchez</a></p>
+            </div>
+        </div>       
+    </footer>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
